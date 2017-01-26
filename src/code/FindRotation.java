@@ -7,6 +7,8 @@ public class FindRotation {
         this.words = words;
     }
 
+    // TODO: Don't need to binary search in each direction, if the current value is alphabetically before the
+    //          first item in the array, then the rotation point is to the left.
     public int getRotationIndex() {
         int start = 0;
         int end = this.words.length - 1;
