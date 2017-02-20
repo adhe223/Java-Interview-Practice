@@ -1,5 +1,4 @@
 package test;
-import com.sun.source.tree.BinaryTree;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.Before;
